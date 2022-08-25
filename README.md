@@ -30,4 +30,8 @@ You need to do the things listed here:
 At a command prompt, type `pip install --upgrade jupyterlab jupyterlab-git`. This will enable Git functionality within JupyterLab. If you have already launched JupyterLab, you will need to close the browser window it launched in, and restart it from the commandline as directed by the linked installation guide in Step Two, above.
 
 ### Step Four: Clone this repository in JupyterLab
-First, you need to 
+First, you need to copy the URL for this repository by clicking on the green "Code" button above, selecting "HTTPS" and then copying the URL.
+
+![An inline image screenshot of Github submenu for cloning a repository.](./images/git_clone_https.png "Github submenu for cloning a repository.")
+
+Then, you'll need to navigate to the Jupyter Lab git integration tab, and select Clone a repository. When prompted, enter the URL you copied from the Github site. All the notebooks part of this tutorial should appear and you can open the first notebook, `tic_start.ipynb`, to begin the tutorial.
