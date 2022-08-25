@@ -8,6 +8,26 @@ In this Jupyter Notebook series, I will provide code and commentary that enables
 
 # Getting Started
 
+You need to have a way to run Jupyter Notebook files to use this tutorial. This means you can either find a JupyterHub site for which you have login credentials, or you can install Jupyter lab locally on your machine. Here are basic instructions to do the latter.
+
 ## Install Jupyter Notebook Locally
 
-You need to do the things here: [https://jupyter.org/install](https://jupyter.org/install)
+### Step One: Get Python
+
+You probably already have Python on your machine. You can test that by entering the word `python` or `python3` on a MacOS command prompt, or entering the word `py` or `python` on a Windows command prompt. If the Python Interpreter starts up, you're in business! (You can type `quit()` to exit the Python interpreter, or just close the command prompt window altogether.)
+
+##### MacOS
+You need Python if you don't have it already. If you have a MacOS machine you should follow [these instructions](https://docs.python-guide.org/starting/install3/osx/), because `homebrew` is a game-changer, and it's a foolproof way to install Python 3 and `pip` (the Python Package Manager).
+
+##### Windows
+If you have Windows, you can obtain Python fromt the official Windows Store, or you can [download it from Python.org](https://www.python.org/downloads/windows/).
+
+### Step Two: Get Jupyter
+You need to do the things listed here:
+[https://jupyter.org/install](https://jupyter.org/install)
+
+### Step Three: Install Jupyter's git functionality with pip
+At a command prompt, type `pip install --upgrade jupyterlab jupyterlab-git`. This will enable Git functionality within JupyterLab. If you have already launched JupyterLab, you will need to close the browser window it launched in, and restart it from the commandline as directed by the linked installation guide in Step Two, above.
+
+### Step Four: Clone this repository in JupyterLab
+First, you need to 
