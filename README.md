@@ -1,4 +1,4 @@
-# Transparency in Coverage Data with Python: Part 1
+# Transparency in Coverage Data with Python
 
 July 1, 2022, the [Center for Medicare & Medicaid Services](https://www.cms.gov/) (CMS) began enforcing its new [Transparency in Coverage Rule](https://www.cms.gov/healthplan-price-transparency), which requires almost all US health plans to post very detailed pricing data about the vast majority of the services and procedures these plans cover.
 
