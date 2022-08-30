@@ -7,4 +7,6 @@ toc_file_aetna.json.gz
 .ipynb_checkpoints/tic_in_network-checkpoint.ipynb
 .ipynb_checkpoints/README-checkpoint.md
 .ipynb_checkpoints/tic_toc-checkpoint.py
-tic_in_network.ipynb
+tic_in_network_IP.ipynb
+tip_providers_IP.ipynb
+tic_cloudstuff.ipynb
